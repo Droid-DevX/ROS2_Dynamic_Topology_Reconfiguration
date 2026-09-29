@@ -239,9 +239,9 @@ Pre-generated plots are stored in `experiment_logs/plots/` organized by fault ca
 ## Acknowledgments
 
 - [Bitcraze](https://www.bitcraze.io/) — Crazyflie platform and `crazyswarm2`
-- IIT Mandi — Research infrastructure and mentorship
+- IIT Mandi - Research infrastructure and mentorship
 - ROS 2 Community
 
 ## License
 
-Apache-2.0 — see `LICENSE` for details.
+Apache-2.0 - see `LICENSE` for details.
