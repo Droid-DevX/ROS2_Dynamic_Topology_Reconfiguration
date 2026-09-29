@@ -1,0 +1,75 @@
+﻿# ==============================================================
+# ROS 2 / Colcon Build Artifacts
+# ==============================================================
+build/
+install/
+log/
+
+# ==============================================================
+# Python
+# ==============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+eggs/
+.eggs/
+*.so
+pip-wheel-metadata/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ==============================================================
+# Data & Large Files
+# ==============================================================
+# Raw flight log CSVs (generated at runtime; commit only curated ones)
+data/raw_flight_logs/
+
+# Compressed archives (use Git LFS or external storage instead)
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Video recordings
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==============================================================
+# IDE & Editor
+# ==============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==============================================================
+# Testing & Coverage
+# ==============================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ==============================================================
+# Misc
+# ==============================================================
+*.log
+*.bak
+*.tmp
